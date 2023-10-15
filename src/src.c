@@ -373,7 +373,7 @@ int cgetch(void)
     new_tio.c_lflag &= ~(ICANON | ECHO);
     tcsetattr(STDIN_FILENO, TCSANOW, &new_tio);
 
-    c = cgetchar();
+    c = getchar();
 
     tcsetattr(STDIN_FILENO, TCSANOW, &old_tio);
     return c;

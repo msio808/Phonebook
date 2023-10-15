@@ -11,7 +11,6 @@
 #include <string.h>
 #include <unistd.h>
 #include <sys/file.h>
-#include <stdbool.h>
 
 #define BUFFSIZE 0x20
 #define NAMESIZE 0x40
@@ -19,7 +18,6 @@
 #define LINESIZE 0x1000
 typedef char *string;
 
-#define DELIMITER "\", \""
 #define clr() printf("\033c")
 #define CTRL_K(key) ((key) & 0x1f)
 
