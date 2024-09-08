@@ -5,8 +5,8 @@ project(Phonebook VERSION 1.0 LANGUAGES C)
 set(CMAKE_C_STANDARD 23)
 set(CMAKE_C_STANDARD_REQUIRED True)
 
-set(CMAKE_C_FLAGS "${CMAKE_C_FLAGS} -g")
-# -Wall -Werror -Wextra -Wpedantic -pedantic-errors -Wformat -Wformat-security -Wuninitialized -Wshadow -Wsign-compare -Wconversion  -Wmissing-field-initializers
+set(CMAKE_C_FLAGS "${CMAKE_C_FLAGS} -g -Wall -Werror -Wextra -Wpedantic -pedantic-errors -Wformat -Wformat-security -Wuninitialized -Wshadow -Wsign-compare -Wmissing-field-initializers")
+# -Wconversion
 
 set(SOURCES
         ../src/main.c
