@@ -24,12 +24,12 @@ The Phonebook Application is a terminal-based contact management system that all
 
    ```bash
    git clone https://github.com/mrmas-io/phonebook.git
-   cd phonebook
+   cd phonebook/config
    ```
 2. Build using **`GCC`**:
 
    ```bash
-   gcc -o main main.c -Wall -Werror -Wextra -pedantic
+   ./build.sh --run
    ```
 
 
@@ -61,7 +61,7 @@ The Phonebook Application is a terminal-based contact management system that all
 
 - **`delete_contact()`**: Deletes a contact from the phonebook.
 
-- **`exit_program()`**: Exits the program.
+- **`exit_program(int)`**: Exits the program.
 
 ## License
 
