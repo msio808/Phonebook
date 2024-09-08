@@ -23,31 +23,30 @@ The Phonebook Application is a terminal-based contact management system that all
 1. Clone the repository to your local machine:
 
    ```bash
-   git clone https://github.com/mrmas-io/phonebook.git
+   git clone https://github.com/msio808/phonebook.git
+   ```
+
+   ```bash
    cd phonebook/config
    ```
-2. Build using **`GCC`**:
+
+2. Build & run using **`GCC`**:
 
    ```bash
    ./build.sh --run
    ```
+   
+3. Debug using **`GDB`**:
 
+   ```bash
+   ./build.sh --debug
+   ```
 
 ## Usage
 
-1. Run the application:
-   1. **On Windows:**
-        ```bash
-        .\main.exe
-        ```
-    2. **On Unix:**
-        ```bash
-        ./main
-        ```
+1. You will be prompted to log in with a predefined username and password. The default is "admin" for both.
 
-2. You will be prompted to log in with a predefined username and password. The default is "admin" for both.
-
-3. Use the menu to navigate through the application's features.
+2. Use the menu to navigate through the application's features.
 
 ## Function Descriptions
 
@@ -65,4 +64,4 @@ The Phonebook Application is a terminal-based contact management system that all
 
 ## License
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+This project is licensed under the MIT License - see the [LICENSE](../LICENSE) file for details.
